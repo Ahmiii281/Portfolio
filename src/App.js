@@ -82,7 +82,7 @@ function App() {
           <p>Building scalable, impactful products with modern web technologies. Open to opportunities at Google, Microsoft, and other top tech companies.</p>
           <div className="hero-actions">
             <a href="#contact" className="btn primary">Contact Me</a>
-            <a href="#contact" className="btn secondary">Download CV</a>
+            <a href="/Bilal_Ahmed_CV.pdf" className="btn secondary" download="Bilal_Ahmed_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
           </div>
         </div>
       </section>

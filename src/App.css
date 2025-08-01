@@ -375,6 +375,28 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
+/* Download button specific styles */
+.btn.secondary[download] {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn.secondary[download]::before {
+  content: '📄';
+  margin-right: 0.5rem;
+  transition: var(--transition);
+}
+
+.btn.secondary[download]:hover::before {
+  content: '⬇️';
+  transform: translateY(-2px);
+}
+
+.btn.secondary[download]:active {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-soft);
+}
+
 /* Main Content */
 main {
   flex: 1;
