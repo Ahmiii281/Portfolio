@@ -165,8 +165,7 @@ const SKILLS = {
   Frontend: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'TypeScript', 'ReactJS', 'Bootstrap', 'Responsive Design'],
   Backend: ['PHP', 'Python', 'FastAPI', 'Flask', 'Node.js', 'REST APIs'],
   Database: ['MySQL', 'SQLite', 'Firebase', 'SQL Server'],
-  'Tools & DevOps': ['Git', 'GitHub', 'VS Code', 'Linux', 'XAMPP', 'Vercel'],
-  'UI/UX & AI': ['Figma', 'UX Design', 'OpenCV', 'TensorFlow', 'NLP'],
+  Tools: ['Git', 'GitHub', 'VS Code', 'Linux', 'XAMPP', 'Vercel', 'Figma', 'UX Design']
 };
 
 /* ─── INTERSECTION OBSERVER HOOK ─────────────────────────────────────────── */
@@ -301,6 +300,9 @@ function App() {
         <section className="hero-section" id="hero">
           <div className="hero-bg-pattern"></div>
           <div className="hero-content">
+            <div className="hero-photo-wrapper">
+              <img src="/my_pic.jpeg" alt="Bilal Ahmed" className="hero-photo" />
+            </div>
             <div className="hero-badge">👋 Available for Internship / Job</div>
             <h1 className="hero-name">Bilal Ahmed</h1>
             <h2 className="hero-role">
@@ -332,7 +334,7 @@ function App() {
               <div className="stat-divider"></div>
               <div className="stat-item"><span className="stat-num">3+</span><span className="stat-label">Certifications</span></div>
               <div className="stat-divider"></div>
-              <div className="stat-item"><span className="stat-num">8wk</span><span className="stat-label">Internship</span></div>
+              <div className="stat-item"><span className="stat-num">6wk</span><span className="stat-label">Internship</span></div>
             </div>
           </div>
           <div className="hero-scroll-cue">
@@ -362,10 +364,10 @@ function App() {
                   real utility company.
                 </p>
                 <p>
-                  I completed an <strong>8-week internship at Arch Technologies</strong>, where I contributed to production
-                  web applications, collaborated with cross-functional teams, and sharpened my professional development
-                  workflow. I actively participate in coding competitions and tech conferences, always chasing the next
-                  challenge.
+                  I completed a <strong>6-week internship at DevelopersHub Corporation</strong> as a Frontend Web
+                  Developer, where I built responsive interfaces, implemented UI components, and collaborated within
+                  Agile teams. I actively participate in coding competitions and tech conferences, always chasing the
+                  next challenge.
                 </p>
                 <div className="about-highlights">
                   <div className="highlight-item">
@@ -385,8 +387,8 @@ function App() {
                   <div className="highlight-item">
                     <span className="hi-icon">🏢</span>
                     <div>
-                      <strong>Intern — Arch Technologies</strong>
-                      <small>8-Week Full Stack Development</small>
+                      <strong>Intern — DevelopersHub Corporation</strong>
+                      <small>6-Week Frontend Web Development</small>
                     </div>
                   </div>
                   <div className="highlight-item">
@@ -396,23 +398,6 @@ function App() {
                       <small>FYP: AI-PECO Energy System</small>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="about-card-side">
-                <div className="github-stats-card">
-                  <h4>GitHub Activity</h4>
-                  <img
-                    src="https://github-readme-stats.vercel.app/api?username=Ahmiii281&show_icons=true&theme=default&bg_color=e2e1df&title_color=5c341e&icon_color=5c341e&text_color=2f180b&border_color=d0c1a9&hide_border=false&count_private=true"
-                    alt="Bilal Ahmed GitHub Stats"
-                    loading="lazy"
-                    onError={(e) => { e.target.style.display = 'none'; }}
-                  />
-                  <img
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmiii281&layout=compact&bg_color=e2e1df&title_color=5c341e&text_color=2f180b&border_color=d0c1a9"
-                    alt="Top Languages"
-                    loading="lazy"
-                    onError={(e) => { e.target.style.display = 'none'; }}
-                  />
                 </div>
               </div>
             </div>
@@ -478,12 +463,12 @@ function App() {
                   <div className="timeline-item">
                     <div className="tl-dot"></div>
                     <div className="tl-content">
-                      <div className="tl-date">2024 · 8 Weeks</div>
-                      <h5>Software Engineering Intern</h5>
-                      <div className="tl-org">Arch Technologies</div>
+                      <div className="tl-date">May 2025 – Jul 2025 · 6 Weeks</div>
+                      <h5>Frontend Web Developer Intern</h5>
+                      <div className="tl-org">DevelopersHub Corporation</div>
                       <p>
-                        Contributed to production web applications, implemented responsive UI components, collaborated
-                        in Agile sprints, and improved codebase quality through code reviews and refactoring initiatives.
+                        Developed and optimized responsive frontend interfaces, implemented reusable React UI components,
+                        collaborated in Agile sprints, and enhanced application performance and UX across client projects.
                       </p>
                     </div>
                   </div>
@@ -530,7 +515,7 @@ function App() {
               <h4 className="exp-col-title" style={{ marginBottom: '1.5rem' }}>🎓 Education</h4>
               <div className="edu-grid">
                 {[
-                  { degree: 'BS Software Engineering', school: 'University of Mianwali, Punjab, Pakistan', year: '2022 – 2026', detail: 'CGPA: 2.73 / 4.0 · Final Year' },
+                  { degree: 'BS Software Engineering', school: 'University of Mianwali, Punjab, Pakistan', year: '2022 – 2026', detail: 'CGPA: 2.76 / 4.0 · Final Year' },
                   { degree: 'Higher Secondary (HSSC)', school: 'The Superior Group of Colleges, Quaidabad', year: '2020 – 2022', detail: 'Marks: 815 / 1100' },
                   { degree: 'Secondary (SSC)', school: 'Govt. High School, Shadia, Pakistan', year: '2018 – 2020', detail: 'Marks: 911 / 1100' },
                 ].map(edu => (
