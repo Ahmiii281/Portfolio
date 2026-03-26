@@ -299,10 +299,9 @@ function App() {
         {/* ── Hero ── */}
         <section className="hero-section" id="hero">
           <div className="hero-bg-pattern"></div>
-          <div className="hero-content">
-            <div className="hero-photo-wrapper">
-              <img src="/my_pic.jpeg" alt="Bilal Ahmed" className="hero-photo" />
-            </div>
+
+          {/* ── Left: Text ── */}
+          <div className="hero-text-col">
             <div className="hero-badge">👋 Available for Internship / Job</div>
             <h1 className="hero-name">Bilal Ahmed</h1>
             <h2 className="hero-role">
@@ -337,6 +336,36 @@ function App() {
               <div className="stat-item"><span className="stat-num">6wk</span><span className="stat-label">Internship</span></div>
             </div>
           </div>
+
+          {/* ── Right: Premium Image ── */}
+          <div className="hero-img-col">
+            <div className="hero-img-scene">
+              {/* Animated ambient blob */}
+              <div className="img-blob-bg"></div>
+              {/* Rotating gradient ring */}
+              <div className="img-ring-outer">
+                <div className="img-ring-inner"></div>
+              </div>
+              {/* Glow pulse */}
+              <div className="img-glow-pulse"></div>
+              {/* Glassmorphism card */}
+              <div className="img-glass-card">
+                <img
+                  src="/my_pic.jpeg"
+                  alt="Bilal Ahmed — Software Engineer"
+                  className="hero-portrait"
+                  loading="eager"
+                />
+                {/* Light reflection overlay */}
+                <div className="img-reflection"></div>
+              </div>
+              {/* Floating decorative dots */}
+              <div className="img-dot img-dot-1"></div>
+              <div className="img-dot img-dot-2"></div>
+              <div className="img-dot img-dot-3"></div>
+            </div>
+          </div>
+
           <div className="hero-scroll-cue">
             <span>Scroll</span>
             <div className="scroll-line"></div>
@@ -463,7 +492,7 @@ function App() {
                   <div className="timeline-item">
                     <div className="tl-dot"></div>
                     <div className="tl-content">
-                      <div className="tl-date">May 2025 – Jul 2025 · 6 Weeks</div>
+                      <div className="tl-date">May 2025 – June 2025 · 6 Weeks</div>
                       <h5>Frontend Web Developer Intern</h5>
                       <div className="tl-org">DevelopersHub Corporation</div>
                       <p>
