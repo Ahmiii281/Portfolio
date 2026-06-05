@@ -247,7 +247,7 @@ function App() {
             <span className="hero-badge">Available for Internship & Job Opportunities</span>
             <h1 className="hero-name">Bilal Ahmed</h1>
             <p className="hero-role">
-              Software Engineer · Full Stack Developer · UX-Focused Creator
+              Software Engineer · Full Stack Developer · UX-Designer · Project Manager · AI Enthusiast
             </p>
             <p className="hero-tagline">
               I build polished web applications, intuitive user experiences, and AI-enhanced solutions that help teams scale and deliver fast.
@@ -341,10 +341,31 @@ function App() {
                     </div>
                   </div>
                   <div className="highlight-item">
+                    <span className="hi-icon">🎨</span>
+                    <div>
+                      <strong>Google Prompting Essentials</strong>
+                      <small>Google Career Certificates</small>
+                    </div>
+                  </div>
+                  <div className="highlight-item">
+                    <span className="hi-icon">🎨</span>
+                    <div>
+                      <strong>Google Project Management (Ongoing)</strong>
+                      <small>Google Career Certificates</small>
+                    </div>
+                  </div>
+                  <div className="highlight-item">
                     <span className="hi-icon">🏢</span>
                     <div>
-                      <strong>DevelopersHub Internship</strong>
-                      <small>Frontend Web Development</small>
+                      <strong>DevelopersHub Corporation</strong>
+                      <small>Frontend Web Development Internship</small>
+                    </div>
+                  </div>
+                  <div className="highlight-item">
+                    <span className="hi-icon">🏢</span>
+                    <div>
+                      <strong>HexSoftwares</strong>
+                      <small>Frontend Web Development Internship</small>
                     </div>
                   </div>
                   <div className="highlight-item">
@@ -422,9 +443,9 @@ function App() {
                   <div className="timeline-item">
                     <div className="tl-dot" />
                     <div className="tl-content">
-                      <div className="tl-date">May 2025 – June 2025 · 6 Weeks</div>
+                      <div className="tl-date">1st May 2025 – 31st May 2025 · 4 Weeks</div>
                       <h5>Frontend Web Developer Intern</h5>
-                      <div className="tl-org">DevelopersHub Corporation</div>
+                      <div className="tl-org">HexSoftware</div>
                       <p>
                         Built responsive frontend components, improved application accessibility, and collaborated with designers to deliver polished features using modern web tools.
                       </p>
@@ -434,9 +455,9 @@ function App() {
                   <div className="timeline-item">
                     <div className="tl-dot" />
                     <div className="tl-content">
-                      <div className="tl-date">April 2025 – May 2025 · 4 Weeks</div>
+                      <div className="tl-date">1st April 2025 – 15th May 2025 · 6 Weeks</div>
                       <h5>Frontend Web Developer Intern</h5>
-                      <div className="tl-org">HexSoftwares</div>
+                      <div className="tl-org">DevelopersHub Corporation</div>
                       <p>
                         Translated UI designs into production-ready pages, optimized interactions, and supported cross-browser performance for client projects.
                       </p>
@@ -463,9 +484,9 @@ function App() {
                   {[
                     { icon: '🎖️', title: 'Google UX Design Certificate', sub: 'Google Career Certificates' },
                     { icon: '🎖️', title: 'Google Prompting Essentials', sub: 'Google Career Certificates' },
-                    { icon: '🥇', title: 'DELTA Full Stack Development', sub: 'Apna College' },
+                    { icon: '🎖️', title: 'Google Project Management (Ongoing)', sub: 'Google Career Certificates' },
                     { icon: '🏅', title: 'GENZ Coding Quest', sub: 'University of Mianwali' },
-                    { icon: '🔬', title: 'FCIDS 2025 Speaker', sub: 'Computational Intelligence Conference' },
+                    { icon: '🔬', title: 'FCICFS 2025', sub: 'Frontiers in Computational Intelligence Conference for Software Engineering and Data Science' },
                     { icon: '🌍', title: 'Internet Ecology Olympiad', sub: 'International Participant' },
                   ].map((achievement) => (
                     <div className="achievement-item" key={achievement.title}>
