@@ -1,6 +1,8 @@
 # 🌟 Modern Portfolio - Bilal Ahmed
 
-A stunning, modern portfolio website showcasing my skills as a Full Stack Web Developer. Built with React and featuring cutting-edge design trends including glassmorphism, smooth animations, and responsive design.
+A stunning, modern portfolio website showcasing my skills as a Full Stack Web Developer. Built with React 18.2 and featuring cutting-edge design trends including glassmorphism, smooth animations, and responsive design.
+
+**Last Updated:** June 2026 | Optimized for Netlify Deployment
 
 ## ✨ Features
 

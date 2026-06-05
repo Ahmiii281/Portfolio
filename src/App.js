@@ -1,4 +1,5 @@
-﻿import React, { useState, useEffect, useRef } from 'react';
+﻿// Bilal Ahmed Portfolio — React 18.2 LTS | Production Ready | June 2026
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
 const PROJECTS = [

@@ -1,7 +1,10 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Professional portfolio website for Bilal Ahmed - Full Stack Developer & UX Designer",
+  "author": "Bilal Ahmed",
+  "homepage": "https://github.com/Ahmiii281/Portfolio",
   "dependencies": {
     "cra-template-pwa": "2.0.0",
     "react": "^18.2.0",
